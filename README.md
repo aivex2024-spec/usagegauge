@@ -2,7 +2,11 @@
 
 **English** · [한국어](README.ko.md) · [日本語](README.ja.md) · [简体中文](README.zh.md)
 
-A tiny always-on-top Windows widget that shows an **estimate** of how much of your Claude Code usage is left — before you hit the limit in the middle of a task.
+**Know your Claude Code limit before it stops you — without typing `/usage`.**
+
+A tiny always-on-top Windows widget that shows an **estimate** of how much of your Claude Code usage is left, right where you work.
+
+Ever had Claude Code stop mid-task with "usage limit reached"? This keeps the answer in the corner of your screen.
 
 ![demo](demo.gif)
 
@@ -10,7 +14,7 @@ A tiny always-on-top Windows widget that shows an **estimate** of how much of yo
 
 **[⬇ Download AIUsageGauge.exe](../../releases/latest/download/AIUsageGauge.exe)** — Windows 11 (Windows 10 not tested yet), no admin rights needed.
 
-After the trial: one-time purchase, about $5 (₩6,900) — **[Buy a license](https://aivex.lemonsqueezy.com/checkout/buy/e78a9038-fcea-45ee-848a-5a87f3def1a9)**. No subscription.
+After the trial: **launch price about $5 (₩6,900) until Nov 30** (₩9,900 after), one-time — **[Buy a license](https://aivex.lemonsqueezy.com/checkout/buy/e78a9038-fcea-45ee-848a-5a87f3def1a9)**. No subscription. **14-day refund, no questions asked.**
 
 > The installer isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC" on first run. Click **More info → Run anyway**.
 
@@ -18,8 +22,8 @@ After the trial: one-time purchase, about $5 (₩6,900) — **[Buy a license](ht
 
 | | |
 |---|---|
+| ![](03_almost_out_1280x800.png) | **Know before you hit the limit.** Once you've hit a limit, it uses that amount to estimate what's left more accurately, and tells you when you'll run out at this pace. |
 | ![](01_plenty_1280x800.png) | **Just watch the color.** Green is fine, yellow is caution, red is almost out — for the 5-hour window and the last 7 days. |
-| ![](03_almost_out_1280x800.png) | **Learns your real limit.** Once you've hit a limit, it uses that amount to estimate what's left more accurately, and tells you when you'll run out at this pace. |
 | ![](06_tabs_1280x800.png) | **All your AI tools in tabs.** Codex, Gemini CLI and Antigravity get their own tab if you use them. |
 | ![](07_saver_1280x800.png) | **Finds where usage leaks.** Spots overly long chats and copies a summary so you can continue in a fresh one. |
 
@@ -33,6 +37,9 @@ Also: double-click to shrink it to one line, dark/light theme, four text sizes, 
 - The remaining amount is an **estimate**, not an official number.
 
 ## FAQ
+
+**Claude Code already has `/usage`. Why this?** `/usage` is the official number — but you have to stop and type it, and it only tells you after you ask. The gauge stays on screen while Claude works, turns yellow when you're going faster than usual, and tells you roughly when you'll run out — so you find out *before* the limit, not at it. It also covers Codex, Gemini CLI and Antigravity in one place.
+
 
 **Is this official?** No. It's an unofficial tool by an independent developer, not affiliated with Anthropic, OpenAI or Google.
 

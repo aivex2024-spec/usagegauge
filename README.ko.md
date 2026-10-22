@@ -2,7 +2,9 @@
 
 [English](README.md) · **한국어** · [日本語](README.ja.md) · [简体中文](README.zh.md)
 
-Claude Code를 쓰다 작업 중간에 한도에 걸리기 전에, 남은 양을 **추정**해서 화면 구석에 늘 보여 주는 작은 Windows 프로그램입니다.
+**작업 중에 끊기기 전에, 남은 양을 화면 구석에서. `/usage` 칠 필요 없이.**
+
+Claude Code 남은 양을 **추정**해서 일하는 화면 구석에 늘 보여 주는 작은 Windows 프로그램입니다.
 
 ![시연](demo_ko.gif)
 
@@ -10,7 +12,7 @@ Claude Code를 쓰다 작업 중간에 한도에 걸리기 전에, 남은 양을
 
 **[⬇ AIUsageGauge.exe 내려받기](../../releases/latest/download/AIUsageGauge.exe)** — Windows 11 (Windows 10은 확인 중), 관리자 권한 필요 없음
 
-체험이 끝나면 한 번 구매 6,900원 — **[라이선스 사기](https://aivex.lemonsqueezy.com/checkout/buy/e78a9038-fcea-45ee-848a-5a87f3def1a9)**. 구독이 아닙니다.
+체험이 끝나면 한 번 구매 **출시가 6,900원(11월 30일까지, 이후 9,900원)** — **[라이선스 사기](https://aivex.lemonsqueezy.com/checkout/buy/e78a9038-fcea-45ee-848a-5a87f3def1a9)**. 구독이 아닙니다. **구매 후 14일 안에는 이유 없이 전액 환불.**
 
 > 아직 코드 서명이 없어 처음 실행할 때 "Windows의 PC 보호" 창이 뜰 수 있어요. **추가 정보 → 실행**을 누르세요.
 
@@ -21,6 +23,10 @@ Claude Code를 쓰다 작업 중간에 한도에 걸리기 전에, 남은 양을
 - **여러 AI를 탭으로.** Codex·Gemini CLI·Antigravity를 쓰면 탭이 저절로 생겨요
 - **새는 사용량을 찾아요.** 너무 길어진 대화를 찾고, 새 대화로 넘길 요약을 복사해 줘요
 - 더블클릭으로 한 줄 보기, 어두운·밝은 테마, 글자 크기 4단계, 한국어·English·日本語·简体中文
+
+## `/usage`가 있는데 왜 필요하죠?
+
+정확한 숫자는 공식 `/usage`가 기준입니다. 다만 확인하려면 하던 일을 멈추고 직접 쳐야 하고, 물어봐야만 알려 줍니다. 게이지는 Claude가 일하는 동안에도 화면에 떠 있고, 평소보다 빨리 쓰면 노랗게 바뀌고, 지금 속도면 언제쯤 다 쓰는지 알려 줍니다. 한도에 **걸린 뒤가 아니라 걸리기 전에** 알 수 있어요. Codex·Gemini CLI·Antigravity도 한곳에서 봅니다.
 
 ## 개인정보
 
