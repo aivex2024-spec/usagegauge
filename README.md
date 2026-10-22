@@ -4,7 +4,7 @@
 
 **Know your Claude Code limit before it stops you — without typing `/usage`.**
 
-A tiny always-on-top Windows widget that shows an **estimate** of how much of your Claude Code usage is left, right where you work.
+A tiny always-on-top Windows widget that shows how much of your Claude Code usage is left, right where you work — the **official %** from Claude Code itself (new in 1.2), or an estimate from local logs.
 
 Ever had Claude Code stop mid-task with "usage limit reached"? This keeps the answer in the corner of your screen.
 
@@ -23,6 +23,7 @@ After the trial: **launch price about $5 (₩6,900) until Nov 30** (₩9,900 aft
 | | |
 |---|---|
 | ![](03_almost_out_1280x800.png) | **Know before you hit the limit.** Once you've hit a limit, it uses that amount to estimate what's left more accurately, and tells you when you'll run out at this pace. |
+| ![](09_official.png) | **Official numbers, one click (1.2).** If you use Claude Code 2.1.80+ in a terminal with a Pro/Max plan, one button connects the official remaining % that Claude Code passes to its status line. Turn it off and your previous status line comes back. |
 | ![](01_plenty_1280x800.png) | **Just watch the color.** Green is fine, yellow is caution, red is almost out — for the 5-hour window and the last 7 days. |
 | ![](06_tabs_1280x800.png) | **All your AI tools in tabs.** Codex, Gemini CLI, Antigravity and Cursor (activity estimate) get their own tab if you use them. |
 | ![](07_saver_1280x800.png) | **Finds where usage leaks.** Spots overly long chats and copies a summary so you can continue in a fresh one. |
@@ -36,7 +37,7 @@ Also: double-click to shrink it to one line, dark/light theme, four text sizes, 
 - It reads only the logs AI coding tools already leave on your PC (Claude Code: `~/.claude/projects`).
 - It never reads your login or tokens, and never calls private endpoints.
 - Conversations never leave your PC. The internet is used only to check the license.
-- The remaining amount is an **estimate**, not an official number.
+- Without the connection, the remaining amount is an **estimate**. With it, the gauge shows the numbers Claude Code gives its status line — still without reading your login.
 
 ## FAQ
 
@@ -45,7 +46,7 @@ Also: double-click to shrink it to one line, dark/light theme, four text sizes, 
 
 **Is this official?** No. It's an unofficial tool by an independent developer, not affiliated with Anthropic, OpenAI or Google.
 
-**How accurate is it?** Until you hit a limit once, it compares you with your own busiest 5 hours / 7 days ("headroom"). After a limit hit, it uses that real amount.
+**How accurate is it?** With the official connection (1.2), it shows Claude Code's own numbers. Without it: until you hit a limit once, it compares you with your own busiest 5 hours / 7 days ("headroom"). After a limit hit, it uses that real amount.
 
 **How many PCs?** One license works on up to 3 PCs.
 
