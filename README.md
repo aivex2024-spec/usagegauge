@@ -24,8 +24,10 @@ After the trial: **launch price about $5 (₩6,900) until Nov 30** (₩9,900 aft
 |---|---|
 | ![](03_almost_out_1280x800.png) | **Know before you hit the limit.** Once you've hit a limit, it uses that amount to estimate what's left more accurately, and tells you when you'll run out at this pace. |
 | ![](01_plenty_1280x800.png) | **Just watch the color.** Green is fine, yellow is caution, red is almost out — for the 5-hour window and the last 7 days. |
-| ![](06_tabs_1280x800.png) | **All your AI tools in tabs.** Codex, Gemini CLI and Antigravity get their own tab if you use them. |
+| ![](06_tabs_1280x800.png) | **All your AI tools in tabs.** Codex, Gemini CLI, Antigravity and Cursor (activity estimate) get their own tab if you use them. |
 | ![](07_saver_1280x800.png) | **Finds where usage leaks.** Spots overly long chats and copies a summary so you can continue in a fresh one. |
+
+**Add any AI that writes JSON logs** (pick its log folder) and set your own limit — in requests or tokens, refilling daily, every 5 hours, weekly or monthly. Many tabs? Scroll them sideways.
 
 Also: double-click to shrink it to one line, dark/light theme, four text sizes, sharp on mixed-DPI monitors, and an English / 日本語 / 简体中文 / 한국어 UI that follows your Windows language.
 
@@ -38,7 +40,7 @@ Also: double-click to shrink it to one line, dark/light theme, four text sizes, 
 
 ## FAQ
 
-**Claude Code already has `/usage`. Why this?** `/usage` is the official number — but you have to stop and type it, and it only tells you after you ask. The gauge stays on screen while Claude works, turns yellow when you're going faster than usual, and tells you roughly when you'll run out — so you find out *before* the limit, not at it. It also covers Codex, Gemini CLI and Antigravity in one place.
+**Claude Code already has `/usage`. Why this?** `/usage` is the official number — but you have to stop and type it, and it only tells you after you ask. The gauge stays on screen while Claude works, turns yellow when you're going faster than usual, and tells you roughly when you'll run out — so you find out *before* the limit, not at it. It also covers Codex, Gemini CLI, Antigravity and Cursor (activity estimate) in one place.
 
 
 **Is this official?** No. It's an unofficial tool by an independent developer, not affiliated with Anthropic, OpenAI or Google.
